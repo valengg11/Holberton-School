@@ -1,0 +1,125 @@
+body, main{
+    display: flex;
+}
+body{
+    flex-direction: column;
+}
+main{
+    flex-direction: row; 
+    flex: auto;
+}
+article{
+    flex: 2;
+}
+aside{
+    flex: 1;
+}
+article, aside{
+    overflow-y: auto;
+}
+
+header {
+    background-color: #F4F4F4 ;
+    color: #4E516A;
+    border-top: #4E516A 10px solid;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #3A8E91;
+    color: #F4F4F4;
+    font-family: 'Poppins', sans-serif;
+    text-align: block;
+}
+
+.fotoredonda {
+    margin-top:70px;
+    margin-left:65px;
+    margin-right:20px;
+    float:left;
+    /* margin: 30px; */
+}
+
+.personal {
+    margin: 30px;
+    text-align: center;
+    font-size: 17px;
+    background-color: #4AABAE;
+    height: 320px;
+    padding: 20px;
+}
+
+.cualidades{
+    font-size:20px;
+}
+
+.habilidades{
+    background-color: #F4F4F4;
+    color: #4E516A;
+    padding: 10px;
+    text-align: center;
+    line-height:10px;  
+    margin:30px;
+}
+
+.mishab {
+    font-size: 33px;
+}
+
+#lsthab li{
+    display: inline;
+    padding-left: 8px;
+    padding-right:8px;
+    font-size: 20px;
+    background-color: #4E516A;
+    color: #F4F4F4;
+}
+
+.formacionacad {
+    float: left;
+    weight:200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.formacioncomp {
+    weight:200px;
+    height: 200px;
+    margin: 20px;
+}
+
+.nombre{
+    /* font-family: 'Roboto Slab', serif; */
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    line-height: 0;
+}
+
+.profesion{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.encabezado{
+    margin: 20px;
+    float: left;
+}
+
+.lista{
+    float: right;
+    margin-top:40px;
+    margin-right: 40px;
+}
+
+#listaredes li{
+    display: inline;
+    padding-left: 7px;
+    padding-right:7px;
+    
+}
+
+
+
+
+
