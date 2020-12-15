@@ -19,56 +19,55 @@ article, aside{
 }
 
 header {
-    background-color: #F4F4F4 ;
+    background-color:#FDFFFF;
     color: #4E516A;
     border-top: #4E516A 10px solid;
-    margin: 0;
     padding: 0;
 }
 
 body {
-    background-color: #3A8E91;
+    background-color:#fafafa;
     color: #F4F4F4;
     font-family: 'Poppins', sans-serif;
     text-align: block;
+    width: 100%;
 }
 
 .fotoredonda {
-    margin-top:70px;
-    margin-left:65px;
-    margin-right:20px;
     float:left;
-    /* margin: 30px; */
+    margin: 30px; 
+    padding: 30px;
+    filter: grayscale(100%);
 }
 
 .personal {
-    margin: 30px;
-    text-align: center;
+    margin: 20px;
+    text-align: left;
     font-size: 17px;
-    background-color: #4AABAE;
-    height: 320px;
+    background-color:#FF577D; 
     padding: 20px;
 }
 
 .cualidades{
     font-size:20px;
+    text-align: center;
 }
 
 .habilidades{
-    background-color: #F4F4F4;
+    background-color: #4ADCC4   ;
     color: #4E516A;
     padding: 10px;
     text-align: center;
-    line-height:10px;  
-    margin:30px;
+    margin:20px;
 }
 
 .mishab {
-    font-size: 33px;
+    line-height:0.5px;
+    font-size: 30px;
 }
 
 #lsthab li{
-    display: inline;
+    display: inline; 
     padding-left: 8px;
     padding-right:8px;
     font-size: 20px;
@@ -77,20 +76,41 @@ body {
 }
 
 .formacionacad {
-    float: left;
-    weight:200px;
-    height: 200px;
+    float: center;
     margin: 20px;
+    color: #4E516A;
+    background-color:#FDFFFF;
+    padding: 20px;
+}
+
+img.small{
+    width:100px;
+    padding-left: 40px;
+    padding-top: 10px;
+}
+
+.education{
+    float: left;
+    padding-bottom: 20px;
 }
 
 .formacioncomp {
-    weight:200px;
-    height: 200px;
+    float: center;
     margin: 20px;
+    color: #4E516A;
+    background-color:#FDFFFF;
+    padding: 20px;
+}
+
+.explaboral{
+    float: center;
+    margin: 20px;
+    color: #4E516A;
+    background-color:#FDFFFF;
+    padding: 30px;
 }
 
 .nombre{
-    /* font-family: 'Roboto Slab', serif; */
     font-family: 'Poppins', sans-serif;
     font-size: 40px;
     line-height: 0;
@@ -118,6 +138,23 @@ body {
     padding-right:7px;
     
 }
+
+footer {
+    background-color: #FF577D; 
+    color: #F4F4F4;
+    padding: 10px;
+    text-align: center;
+    margin:20px;
+}
+
+.tweets{
+    padding: 20px;
+}
+
+.container{
+    background-color: #FF577D;
+}
+
 
 
 
